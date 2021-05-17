@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		10A4CF0E3F18254A5CA6D41F /* Pods-GoogleDirectionKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleDirectionKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-GoogleDirectionKit_Example/Pods-GoogleDirectionKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		41D24C8E09C9B1F1BA844953 /* GoogleDirectionKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GoogleDirectionKit.podspec; path = ../GoogleDirectionKit.podspec; sourceTree = "<group>"; };
+		41D24C8E09C9B1F1BA844953 /* GoogleDirectionKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GoogleDirectionKit.podspec; path = ../GoogleDirectionKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* GoogleDirectionKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleDirectionKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
