@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GoogleDirectionKit_Example' do
+  pod 'GoogleDirectionKit', :path => '../'
+
+  target 'GoogleDirectionKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
