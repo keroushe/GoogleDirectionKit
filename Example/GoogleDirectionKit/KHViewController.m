@@ -7,6 +7,7 @@
 //
 
 #import "KHViewController.h"
+@import GoogleDirectionKit;
 
 @interface KHViewController ()
 

@@ -12,7 +12,7 @@
 
 #import "GoogleDirectionConfiguration.h"
 #import "GoogleDirectionConstant.h"
-#import "GoogleDirectionLibrary.h"
+#import "GoogleDirectionKit.h"
 #import "GoogleDirectionManage.h"
 #import "GoogleDirectionRequestInfo.h"
 #import "GoogleDirectionResponseParseInfo.h"

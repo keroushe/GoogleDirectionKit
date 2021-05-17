@@ -14,4 +14,4 @@ FOUNDATION_EXPORT double GoogleDirectionLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char GoogleDirectionLibraryVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GoogleDirectionLibrary/PublicHeader.h>
-#import <GoogleDirectionLibrary/GoogleDirectionManage.h>
+#import <GoogleDirectionKit/GoogleDirectionManage.h>
