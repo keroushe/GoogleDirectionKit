@@ -1,0 +1,6 @@
+framework module Pods_GoogleDirectionKit_Tests {
+  umbrella header "Pods-GoogleDirectionKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

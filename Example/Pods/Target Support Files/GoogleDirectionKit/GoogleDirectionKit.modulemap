@@ -1,0 +1,6 @@
+framework module GoogleDirectionKit {
+  umbrella header "GoogleDirectionKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "GoogleDirectionKit",
+  "version": "0.1.0",
+  "summary": "A short description of GoogleDirectionKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/keroushe/GoogleDirectionKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "keroushe": "935823671@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/keroushe/GoogleDirectionKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "GoogleDirectionKit/Classes/**/*",
+  "dependencies": {
+    "YYModel": [
+      "~> 1.0.4"
+    ]
+  },
+  "requires_arc": true
+}

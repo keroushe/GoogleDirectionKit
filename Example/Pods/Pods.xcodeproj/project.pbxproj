@@ -1,0 +1,1182 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006F5E917A23F3BD5EE16B4B385F8D29 /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7906683B44529943B3D1C3FC08003499 /* YYModel.framework */; };
+		04CEDC9856B0E2F850C7DB6CA7004E04 /* GoogleDirectionCoordination.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CF1285955004D97B08837A3121E44A1 /* GoogleDirectionCoordination.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05C3A98A422B670AEA202B733B6A1FAB /* GoogleDirectionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3C79EC66C85D4D5F6927F4BF19301 /* GoogleDirectionConfiguration.m */; };
+		07A9C759A4459C023062632973FBFDDD /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD4EC20A65E1A985E0F9BEAD9351C1 /* YYModel-dummy.m */; };
+		0B979BC4D0DA02B6E23F7D87AE277DD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3D27F36E35288C904D42FC17C31DE0 /* Foundation.framework */; };
+		0BAB81DAD32203F8745F6459A992A267 /* GoogleDirectionRequestInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB3D365C96E80B0093ABD5ED902C39D /* GoogleDirectionRequestInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10ED2FE497FCADE844526E00567D831B /* GoogleDirectionAgency.m in Sources */ = {isa = PBXBuildFile; fileRef = 9184291AF0A363C2F8EA52314B52B92D /* GoogleDirectionAgency.m */; };
+		123205333FCFE18605A9DFD72DF9E2B6 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BB4F016C3C8115496745004A1DCDB4 /* NSObject+YYModel.m */; };
+		134A518AC4D2462EA318F4F3732647A5 /* GoogleDirectionKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E050CCD3DB5816B96B44DAA5863889 /* GoogleDirectionKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		170AC4CDE078C4EF79BBE67C783AAFFD /* GoogleDirectionStopPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEEC3DD8DF4244C0C9F7394A30C06B /* GoogleDirectionStopPoint.m */; };
+		1A87F742EE3DF0B61B7F1AA1C691A80D /* GoogleDirectionConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 562E8AA2C19AA83EE8386830C01F7FF6 /* GoogleDirectionConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B677A74E5FDBADF79EC43C8E6A87187 /* GoogleDirectionRoutePolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AC087D74C1AC20F20A0D5E62FBAA55 /* GoogleDirectionRoutePolyline.m */; };
+		1F36E90F5D4B91F1ED2ADD35BAE048BD /* GoogleDirectionVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = F996D5FBDEF118CD9BD17F1ABD20E276 /* GoogleDirectionVehicle.m */; };
+		2488835A57EA2BA361F33F72996D1811 /* GoogleDirectionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 906872037B90CBE815376DEA07B955AB /* GoogleDirectionKit-dummy.m */; };
+		284EAF74668599ACE3119D5D3597644F /* GoogleDirectionLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3B226CAAE314EDD90832F3545D0813 /* GoogleDirectionLine.m */; };
+		2ADE8278F4BD0A3739E46E127A288C33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3D27F36E35288C904D42FC17C31DE0 /* Foundation.framework */; };
+		2BC49613C26D4E75DE0ECDE1023BE4CD /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 337DA63B3DA00CFCCB8A533965DF2871 /* YYClassInfo.m */; };
+		2CDC62E03F6E64CB487AC8CAA13ED02C /* GoogleDirectionRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = FF26E2A1CE1CFACC2B96C288FCDBA6BF /* GoogleDirectionRoute.m */; };
+		31F45AEAF82BABC0E3292275742FEF71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3D27F36E35288C904D42FC17C31DE0 /* Foundation.framework */; };
+		3344A9F7FA829DDF0DA29B89FD88937C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3D27F36E35288C904D42FC17C31DE0 /* Foundation.framework */; };
+		4096C7A246CE9DABFA1C26930470C111 /* Pods-GoogleDirectionKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8BC93485A83AE9BEF36AC56EFD314E /* Pods-GoogleDirectionKit_Example-dummy.m */; };
+		519A3521158D3E5A3E779804EBD0A987 /* GoogleDirectionBound.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6090B55EA651993527C524A729A732 /* GoogleDirectionBound.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		557CBB16032934D3ECC15DA710C87382 /* GoogleDirectionResponseParseInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C4EE12219598BC152CE28D45C038D6F0 /* GoogleDirectionResponseParseInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D1008839531AF41C82453D3400D4624 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0018C5A02B1185AD57C32D7D35318856 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E3CA726B4E56DBB7D374244D150FD99 /* GoogleDirectionResponseParseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDFCBB9389BF7060160457D28EFCF26 /* GoogleDirectionResponseParseInfo.m */; };
+		5E4FFF4A12F58A5DECF76021867F32D8 /* Pods-GoogleDirectionKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 212C1D258613611E745CBB4DD080EAE7 /* Pods-GoogleDirectionKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6165344B3571BB9169CAB7DEE96DE216 /* GoogleDirectionStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F74D4ED9F70522715CF1D400C90C63 /* GoogleDirectionStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61702AD8ECBFFD9630352E47E795B045 /* GoogleDirectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8F6C31DA255E59D83921DD4B57D1EB /* GoogleDirectionInfo.m */; };
+		636E16A12A6DE27DE33D0BC345852C88 /* YYModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B4980500A7814E01E186A9516070B20 /* YYModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63C4BBD5FE8922A5B7F140852F9DE721 /* GoogleDirectionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EEB64C79A93B887D526D271FBDC3772 /* GoogleDirectionInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		646A19A2E7C805E775DBB361095B1EB1 /* Pods-GoogleDirectionKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 662E81E68543300EEDE1BA8E2AA9A970 /* Pods-GoogleDirectionKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		681BAAFE274B54ECF62305961CBAE64D /* GoogleDirectionFare.h in Headers */ = {isa = PBXBuildFile; fileRef = 2863E674812B4C8F91837A0E9F4B5752 /* GoogleDirectionFare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C443F47AB7AA834CEAA8677C5F1006D /* GoogleDirectionRoutePolyline.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB22B8FDD0A17207800DA3F1DFF539F /* GoogleDirectionRoutePolyline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D43A955C90186AE9F85C4A61C67425D /* GoogleDirectionLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C4579F56CE004E58EC27CD5D86CE6D /* GoogleDirectionLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D572033D82B34589F6489CA8A89DCD3 /* GoogleDirectionVehicle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA8ECE74C11357928E9EF24BB488615 /* GoogleDirectionVehicle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72674CAF2C8C9A829106B94C8DF1632B /* GoogleGeocodedWaypoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 499015125C1CB839AAE7E0F336DF60BF /* GoogleGeocodedWaypoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C83CF548D60BF8B9A4238B58AD2554F /* GoogleDirectionLeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8715C1242A221648D503F8A31775F /* GoogleDirectionLeg.m */; };
+		84313B09B7614F9A5B7DED025823A26C /* Pods-GoogleDirectionKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB612557F06E1DF6A9A3B6862CAB49CD /* Pods-GoogleDirectionKit_Tests-dummy.m */; };
+		844B9C1AFC3B70F8A27C8225C6508D35 /* GoogleDirectionRequestInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDBEC5F5D43411B4F9D03B2CBB0C43B /* GoogleDirectionRequestInfo.m */; };
+		88A910EFE5AD091A66FC7D26233A4C43 /* GoogleDirectionManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B06872975324B7043EA1FADE7C24E1 /* GoogleDirectionManage.m */; };
+		969A86A4F60B2B5174450AB46D282F0A /* GoogleDirectionStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DFCB7B075C16B09BD4922F214250D7 /* GoogleDirectionStep.m */; };
+		98BC85B3ABE5D282A5D76E2DF3A83E54 /* GoogleDirectionCoordination.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6C5F856E0F867236AB7AD3A841C8B3 /* GoogleDirectionCoordination.m */; };
+		9B525EC7B3C6AB2DA644A7AA363140A4 /* GoogleDirectionLeg.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D31A34EF2B5A451D293AB77920A6175 /* GoogleDirectionLeg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1B51E991C360EA6E175EEE6CC176E96 /* GoogleDirectionTimeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D648DA3066F57CF574B5B85A6E72F86 /* GoogleDirectionTimeInfo.m */; };
+		A25A48619FA0FA3EC925E86690F540BD /* GoogleDirectionTransitDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 293FDDFF5ABF34BA855E54CD852C1369 /* GoogleDirectionTransitDetail.m */; };
+		AC42F2959593C785C995559B0CE47E27 /* GoogleDirectionManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0185F4FC8D0B07619119B971C23E5B75 /* GoogleDirectionManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2E03C9BCA9C6E33049BBF363FAA68E1 /* GoogleGeocodedWaypoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C277CD43988B77E1AB6DB5348541C108 /* GoogleGeocodedWaypoint.m */; };
+		B92656D26B4B80484FED7D3797C1714E /* GoogleDirectionConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = D5DB82FCA15A47899296200F86879247 /* GoogleDirectionConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5724C9D127E537ED81669C9C5FC56BF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF114092D561C4E2EBB6345B2439A48 /* CoreFoundation.framework */; };
+		C5D4970A692242FFF2FC72EC1ADD6F94 /* GoogleDirectionFare.m in Sources */ = {isa = PBXBuildFile; fileRef = 630663EC311DFE21F3A921EEFA6C7A3F /* GoogleDirectionFare.m */; };
+		C7D94026A1894286377CA7FAB64299F3 /* GoogleDirectionStopPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C15F9FFDD3E6D0A96E29C0709E5A52 /* GoogleDirectionStopPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDCB1E599ED3F41986A61267E5753CAC /* GoogleDirectionRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = AE064B2EF43B96B8A1A520AD2D77B28F /* GoogleDirectionRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CED9B62D98D657AA9B4649A0C71B034F /* GoogleDirectionWaypoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C10439BE09C10FE74832FC937A5068D /* GoogleDirectionWaypoint.m */; };
+		DB651B513C073704FA017D34A1C8397B /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08A279C9FB0BF0BBFD95892635503B /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E02A8F3C49C43CFC2214BD418B1FAB40 /* GoogleDirectionTimeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A454EB2D2202B226240750F40F8FA539 /* GoogleDirectionTimeInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E29DF1FED26CDA2131493038DA93B694 /* GoogleDirectionBound.m in Sources */ = {isa = PBXBuildFile; fileRef = A86F90F35D12217AEA1623080A6D83F8 /* GoogleDirectionBound.m */; };
+		E36F02FF7DA601BA4839CF6379F4E5BF /* GoogleDirectionAgency.h in Headers */ = {isa = PBXBuildFile; fileRef = 32EB629A6704161927735D9A063F78AF /* GoogleDirectionAgency.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E76A0C2F02C559ED183595EED1DF2AD8 /* GoogleDirectionTransitDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = F034576867193533B014C3072A278433 /* GoogleDirectionTransitDetail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F50C76D4602624238F0AD2E7EAC4D7C8 /* GoogleDirectionWaypoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D67AA95C6043716D3F5DA3CB6C55B7A2 /* GoogleDirectionWaypoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDBE711C0B775861F847A9D044548F45 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B0C0EE41A774C51534A28ACFDF123D /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEF65FF0B99258A4E87A25EF5681E67B /* GoogleDirectionLine.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A3C335A8BF5D1FB52B81E79C429F84 /* GoogleDirectionLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18AA3CF17980C57AFD0ACCCC9C6F7E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
+			remoteInfo = YYModel;
+		};
+		938A4C2F6F3A1E0D2B7291ED5E2E7C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3370671667738E1F5D4E411760E53D0A;
+			remoteInfo = GoogleDirectionKit;
+		};
+		DE7EAFE450607DE925113D32860DEA65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
+			remoteInfo = YYModel;
+		};
+		FBB96B21A177A42CF188D8FBFF5FB2B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CEB7E36B784B7DBBA3252F473743373;
+			remoteInfo = "Pods-GoogleDirectionKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0018C5A02B1185AD57C32D7D35318856 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
+		0185F4FC8D0B07619119B971C23E5B75 /* GoogleDirectionManage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoogleDirectionManage.h; path = GoogleDirectionKit/Classes/GoogleDirectionManage.h; sourceTree = "<group>"; };
+		09889FCED6C40E6584DD6E64F4A112D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1AA3C79EC66C85D4D5F6927F4BF19301 /* GoogleDirectionConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionConfiguration.m; sourceTree = "<group>"; };
+		1E19EEE2B95F52035DA08F0A7E564714 /* YYModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.debug.xcconfig; sourceTree = "<group>"; };
+		212C1D258613611E745CBB4DD080EAE7 /* Pods-GoogleDirectionKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleDirectionKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		24DFCB7B075C16B09BD4922F214250D7 /* GoogleDirectionStep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionStep.m; sourceTree = "<group>"; };
+		2863E674812B4C8F91837A0E9F4B5752 /* GoogleDirectionFare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionFare.h; sourceTree = "<group>"; };
+		28790D1913DB2AEBC1D736E115B71030 /* GoogleDirectionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleDirectionKit.framework; path = GoogleDirectionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F6DA26C1CFC4E9FCF788E4F0E86859 /* Pods-GoogleDirectionKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GoogleDirectionKit_Example.modulemap"; sourceTree = "<group>"; };
+		293FDDFF5ABF34BA855E54CD852C1369 /* GoogleDirectionTransitDetail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionTransitDetail.m; sourceTree = "<group>"; };
+		2DDFCBB9389BF7060160457D28EFCF26 /* GoogleDirectionResponseParseInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GoogleDirectionResponseParseInfo.m; path = GoogleDirectionKit/Classes/GoogleDirectionResponseParseInfo.m; sourceTree = "<group>"; };
+		32EB629A6704161927735D9A063F78AF /* GoogleDirectionAgency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionAgency.h; sourceTree = "<group>"; };
+		337DA63B3DA00CFCCB8A533965DF2871 /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
+		35F358C2284D6045F009E6FDA47BFAF3 /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
+		3877567A1A2C785E4052B321C968541E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3A7EA7CAEE46FD71037B509D67CEF1B8 /* GoogleDirectionKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GoogleDirectionKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3BA8ECE74C11357928E9EF24BB488615 /* GoogleDirectionVehicle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionVehicle.h; sourceTree = "<group>"; };
+		43B06872975324B7043EA1FADE7C24E1 /* GoogleDirectionManage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GoogleDirectionManage.m; path = GoogleDirectionKit/Classes/GoogleDirectionManage.m; sourceTree = "<group>"; };
+		44729B276DD3A60D7E769DFFD0592F35 /* Pods-GoogleDirectionKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleDirectionKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		44B88CDCF2BF0468E962C4533CC5B9EC /* Pods-GoogleDirectionKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleDirectionKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		499015125C1CB839AAE7E0F336DF60BF /* GoogleGeocodedWaypoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleGeocodedWaypoint.h; sourceTree = "<group>"; };
+		4E484BE6EE1D577D2D687AFD3CA72049 /* GoogleDirectionKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleDirectionKit.debug.xcconfig; sourceTree = "<group>"; };
+		4FB3D365C96E80B0093ABD5ED902C39D /* GoogleDirectionRequestInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoogleDirectionRequestInfo.h; path = GoogleDirectionKit/Classes/GoogleDirectionRequestInfo.h; sourceTree = "<group>"; };
+		51AC087D74C1AC20F20A0D5E62FBAA55 /* GoogleDirectionRoutePolyline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionRoutePolyline.m; sourceTree = "<group>"; };
+		54E2C0E71CF586BF8460081B56D18A65 /* Pods_GoogleDirectionKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GoogleDirectionKit_Example.framework; path = "Pods-GoogleDirectionKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		562E8AA2C19AA83EE8386830C01F7FF6 /* GoogleDirectionConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionConfiguration.h; sourceTree = "<group>"; };
+		58BF6879D58B3744CD76778796EA071D /* GoogleDirectionKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GoogleDirectionKit-Info.plist"; sourceTree = "<group>"; };
+		5A355C7767FA38714C4356932EC699FC /* Pods-GoogleDirectionKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleDirectionKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5D31A34EF2B5A451D293AB77920A6175 /* GoogleDirectionLeg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionLeg.h; sourceTree = "<group>"; };
+		5DAD4EC20A65E1A985E0F9BEAD9351C1 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
+		630663EC311DFE21F3A921EEFA6C7A3F /* GoogleDirectionFare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionFare.m; sourceTree = "<group>"; };
+		63284F7BB7643C26C4A0A921E5F12E6B /* GoogleDirectionKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleDirectionKit.release.xcconfig; sourceTree = "<group>"; };
+		662E81E68543300EEDE1BA8E2AA9A970 /* Pods-GoogleDirectionKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleDirectionKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		6B4980500A7814E01E186A9516070B20 /* YYModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-umbrella.h"; sourceTree = "<group>"; };
+		6C10439BE09C10FE74832FC937A5068D /* GoogleDirectionWaypoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionWaypoint.m; sourceTree = "<group>"; };
+		6C1D965E1E710E150FAA4BABCC20B0AF /* Pods-GoogleDirectionKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleDirectionKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D648DA3066F57CF574B5B85A6E72F86 /* GoogleDirectionTimeInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionTimeInfo.m; sourceTree = "<group>"; };
+		72F74D4ED9F70522715CF1D400C90C63 /* GoogleDirectionStep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionStep.h; sourceTree = "<group>"; };
+		743124D24082D89C982C6A2105790A40 /* Pods-GoogleDirectionKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleDirectionKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		77BB4F016C3C8115496745004A1DCDB4 /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
+		78BAC66A20A276249975AA097162B831 /* Pods_GoogleDirectionKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GoogleDirectionKit_Tests.framework; path = "Pods-GoogleDirectionKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7906683B44529943B3D1C3FC08003499 /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADEEC3DD8DF4244C0C9F7394A30C06B /* GoogleDirectionStopPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionStopPoint.m; sourceTree = "<group>"; };
+		7BF114092D561C4E2EBB6345B2439A48 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F6C5F856E0F867236AB7AD3A841C8B3 /* GoogleDirectionCoordination.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionCoordination.m; sourceTree = "<group>"; };
+		81DA769A916AFD6878DA0EC3948024E5 /* YYModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYModel.modulemap; sourceTree = "<group>"; };
+		82BAE36938CDF1A31849FD11EF8B65B9 /* YYModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYModel-Info.plist"; sourceTree = "<group>"; };
+		88CB29B019C0675916F911B84DD92FFB /* Pods-GoogleDirectionKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleDirectionKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8AB8715C1242A221648D503F8A31775F /* GoogleDirectionLeg.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionLeg.m; sourceTree = "<group>"; };
+		8CF1285955004D97B08837A3121E44A1 /* GoogleDirectionCoordination.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionCoordination.h; sourceTree = "<group>"; };
+		906872037B90CBE815376DEA07B955AB /* GoogleDirectionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleDirectionKit-dummy.m"; sourceTree = "<group>"; };
+		9184291AF0A363C2F8EA52314B52B92D /* GoogleDirectionAgency.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionAgency.m; sourceTree = "<group>"; };
+		9B3B226CAAE314EDD90832F3545D0813 /* GoogleDirectionLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionLine.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB22B8FDD0A17207800DA3F1DFF539F /* GoogleDirectionRoutePolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionRoutePolyline.h; sourceTree = "<group>"; };
+		9EEB64C79A93B887D526D271FBDC3772 /* GoogleDirectionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionInfo.h; sourceTree = "<group>"; };
+		A0A3C335A8BF5D1FB52B81E79C429F84 /* GoogleDirectionLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionLine.h; sourceTree = "<group>"; };
+		A454EB2D2202B226240750F40F8FA539 /* GoogleDirectionTimeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionTimeInfo.h; sourceTree = "<group>"; };
+		A5C6B74E3B806DD935EC088B13F3D26A /* Pods-GoogleDirectionKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleDirectionKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A86F90F35D12217AEA1623080A6D83F8 /* GoogleDirectionBound.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionBound.m; sourceTree = "<group>"; };
+		AA08A279C9FB0BF0BBFD95892635503B /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
+		AB612557F06E1DF6A9A3B6862CAB49CD /* Pods-GoogleDirectionKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleDirectionKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		ADA16928DC327C28938B36C8B68C3537 /* GoogleDirectionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleDirectionKit-prefix.pch"; sourceTree = "<group>"; };
+		ADFB6E1DE14CEFB0395B5028F9D9A992 /* Pods-GoogleDirectionKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleDirectionKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		AE064B2EF43B96B8A1A520AD2D77B28F /* GoogleDirectionRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionRoute.h; sourceTree = "<group>"; };
+		B2C15F9FFDD3E6D0A96E29C0709E5A52 /* GoogleDirectionStopPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionStopPoint.h; sourceTree = "<group>"; };
+		BF8F6C31DA255E59D83921DD4B57D1EB /* GoogleDirectionInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionInfo.m; sourceTree = "<group>"; };
+		C0DFA0CC551A7FF09B7C14D0FB10FC80 /* GoogleDirectionKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleDirectionKit.modulemap; sourceTree = "<group>"; };
+		C277CD43988B77E1AB6DB5348541C108 /* GoogleGeocodedWaypoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoogleGeocodedWaypoint.m; sourceTree = "<group>"; };
+		C481F78C6AE69EF2A73EE1E4BC25170A /* Pods-GoogleDirectionKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleDirectionKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C4EE12219598BC152CE28D45C038D6F0 /* GoogleDirectionResponseParseInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoogleDirectionResponseParseInfo.h; path = GoogleDirectionKit/Classes/GoogleDirectionResponseParseInfo.h; sourceTree = "<group>"; };
+		D5B0C0EE41A774C51534A28ACFDF123D /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
+		D5DB82FCA15A47899296200F86879247 /* GoogleDirectionConstant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionConstant.h; sourceTree = "<group>"; };
+		D67AA95C6043716D3F5DA3CB6C55B7A2 /* GoogleDirectionWaypoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionWaypoint.h; sourceTree = "<group>"; };
+		D6E050CCD3DB5816B96B44DAA5863889 /* GoogleDirectionKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleDirectionKit-umbrella.h"; sourceTree = "<group>"; };
+		D7C4579F56CE004E58EC27CD5D86CE6D /* GoogleDirectionLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoogleDirectionLibrary.h; path = GoogleDirectionKit/Classes/GoogleDirectionLibrary.h; sourceTree = "<group>"; };
+		DBDBEC5F5D43411B4F9D03B2CBB0C43B /* GoogleDirectionRequestInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GoogleDirectionRequestInfo.m; path = GoogleDirectionKit/Classes/GoogleDirectionRequestInfo.m; sourceTree = "<group>"; };
+		DD8BC93485A83AE9BEF36AC56EFD314E /* Pods-GoogleDirectionKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleDirectionKit_Example-dummy.m"; sourceTree = "<group>"; };
+		E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYModel.framework; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6090B55EA651993527C524A729A732 /* GoogleDirectionBound.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionBound.h; sourceTree = "<group>"; };
+		EFCC5246255B69FF55C84D72D39D5C14 /* Pods-GoogleDirectionKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleDirectionKit_Example-Info.plist"; sourceTree = "<group>"; };
+		F034576867193533B014C3072A278433 /* GoogleDirectionTransitDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleDirectionTransitDetail.h; sourceTree = "<group>"; };
+		F0E31AA9C2CCB5F9DA86903C0A78F9AE /* Pods-GoogleDirectionKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleDirectionKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F7F2C1B039826330A3A9F7399EB9CC7F /* Pods-GoogleDirectionKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GoogleDirectionKit_Tests.modulemap"; sourceTree = "<group>"; };
+		F996D5FBDEF118CD9BD17F1ABD20E276 /* GoogleDirectionVehicle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionVehicle.m; sourceTree = "<group>"; };
+		FB3D27F36E35288C904D42FC17C31DE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FE96AEFC79A5BBB37B813EF66CBABE80 /* YYModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.release.xcconfig; sourceTree = "<group>"; };
+		FF26E2A1CE1CFACC2B96C288FCDBA6BF /* GoogleDirectionRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GoogleDirectionRoute.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02AA71E30478FB2665DC9A2CAB236586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3344A9F7FA829DDF0DA29B89FD88937C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6521907A11087481B3077226990BEA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ADE8278F4BD0A3739E46E127A288C33 /* Foundation.framework in Frameworks */,
+				006F5E917A23F3BD5EE16B4B385F8D29 /* YYModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C5C510E851EDCDDB2EF6848E4C3D1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B979BC4D0DA02B6E23F7D87AE277DD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80B7F6170D53D2597480A9B9548B6EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5724C9D127E537ED81669C9C5FC56BF /* CoreFoundation.framework in Frameworks */,
+				31F45AEAF82BABC0E3292275742FEF71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D96BB6CEA0EC061211A1981C560DC35 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7BF114092D561C4E2EBB6345B2439A48 /* CoreFoundation.framework */,
+				FB3D27F36E35288C904D42FC17C31DE0 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2CAA6E7887014836B138E4457616B235 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81DA769A916AFD6878DA0EC3948024E5 /* YYModel.modulemap */,
+				5DAD4EC20A65E1A985E0F9BEAD9351C1 /* YYModel-dummy.m */,
+				82BAE36938CDF1A31849FD11EF8B65B9 /* YYModel-Info.plist */,
+				35F358C2284D6045F009E6FDA47BFAF3 /* YYModel-prefix.pch */,
+				6B4980500A7814E01E186A9516070B20 /* YYModel-umbrella.h */,
+				1E19EEE2B95F52035DA08F0A7E564714 /* YYModel.debug.xcconfig */,
+				FE96AEFC79A5BBB37B813EF66CBABE80 /* YYModel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYModel";
+			sourceTree = "<group>";
+		};
+		785905F7F14433995D6F5D6E7F16D574 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				D5DB82FCA15A47899296200F86879247 /* GoogleDirectionConstant.h */,
+			);
+			name = Constant;
+			path = GoogleDirectionKit/Classes/Constant;
+			sourceTree = "<group>";
+		};
+		979B37FF94FA288E3CC15D608DDA9F31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32EB629A6704161927735D9A063F78AF /* GoogleDirectionAgency.h */,
+				9184291AF0A363C2F8EA52314B52B92D /* GoogleDirectionAgency.m */,
+				EA6090B55EA651993527C524A729A732 /* GoogleDirectionBound.h */,
+				A86F90F35D12217AEA1623080A6D83F8 /* GoogleDirectionBound.m */,
+				8CF1285955004D97B08837A3121E44A1 /* GoogleDirectionCoordination.h */,
+				7F6C5F856E0F867236AB7AD3A841C8B3 /* GoogleDirectionCoordination.m */,
+				2863E674812B4C8F91837A0E9F4B5752 /* GoogleDirectionFare.h */,
+				630663EC311DFE21F3A921EEFA6C7A3F /* GoogleDirectionFare.m */,
+				9EEB64C79A93B887D526D271FBDC3772 /* GoogleDirectionInfo.h */,
+				BF8F6C31DA255E59D83921DD4B57D1EB /* GoogleDirectionInfo.m */,
+				5D31A34EF2B5A451D293AB77920A6175 /* GoogleDirectionLeg.h */,
+				8AB8715C1242A221648D503F8A31775F /* GoogleDirectionLeg.m */,
+				A0A3C335A8BF5D1FB52B81E79C429F84 /* GoogleDirectionLine.h */,
+				9B3B226CAAE314EDD90832F3545D0813 /* GoogleDirectionLine.m */,
+				AE064B2EF43B96B8A1A520AD2D77B28F /* GoogleDirectionRoute.h */,
+				FF26E2A1CE1CFACC2B96C288FCDBA6BF /* GoogleDirectionRoute.m */,
+				9DB22B8FDD0A17207800DA3F1DFF539F /* GoogleDirectionRoutePolyline.h */,
+				51AC087D74C1AC20F20A0D5E62FBAA55 /* GoogleDirectionRoutePolyline.m */,
+				72F74D4ED9F70522715CF1D400C90C63 /* GoogleDirectionStep.h */,
+				24DFCB7B075C16B09BD4922F214250D7 /* GoogleDirectionStep.m */,
+				B2C15F9FFDD3E6D0A96E29C0709E5A52 /* GoogleDirectionStopPoint.h */,
+				7ADEEC3DD8DF4244C0C9F7394A30C06B /* GoogleDirectionStopPoint.m */,
+				A454EB2D2202B226240750F40F8FA539 /* GoogleDirectionTimeInfo.h */,
+				6D648DA3066F57CF574B5B85A6E72F86 /* GoogleDirectionTimeInfo.m */,
+				F034576867193533B014C3072A278433 /* GoogleDirectionTransitDetail.h */,
+				293FDDFF5ABF34BA855E54CD852C1369 /* GoogleDirectionTransitDetail.m */,
+				3BA8ECE74C11357928E9EF24BB488615 /* GoogleDirectionVehicle.h */,
+				F996D5FBDEF118CD9BD17F1ABD20E276 /* GoogleDirectionVehicle.m */,
+				D67AA95C6043716D3F5DA3CB6C55B7A2 /* GoogleDirectionWaypoint.h */,
+				6C10439BE09C10FE74832FC937A5068D /* GoogleDirectionWaypoint.m */,
+				499015125C1CB839AAE7E0F336DF60BF /* GoogleGeocodedWaypoint.h */,
+				C277CD43988B77E1AB6DB5348541C108 /* GoogleGeocodedWaypoint.m */,
+			);
+			name = Model;
+			path = GoogleDirectionKit/Classes/Model;
+			sourceTree = "<group>";
+		};
+		9ECD82BFE060F293C4EA64190C06EA9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28790D1913DB2AEBC1D736E115B71030 /* GoogleDirectionKit.framework */,
+				54E2C0E71CF586BF8460081B56D18A65 /* Pods_GoogleDirectionKit_Example.framework */,
+				78BAC66A20A276249975AA097162B831 /* Pods_GoogleDirectionKit_Tests.framework */,
+				E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4AEA6E70374E3B540504DB128F5AD5D /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA08A279C9FB0BF0BBFD95892635503B /* NSObject+YYModel.h */,
+				77BB4F016C3C8115496745004A1DCDB4 /* NSObject+YYModel.m */,
+				0018C5A02B1185AD57C32D7D35318856 /* YYClassInfo.h */,
+				337DA63B3DA00CFCCB8A533965DF2871 /* YYClassInfo.m */,
+				D5B0C0EE41A774C51534A28ACFDF123D /* YYModel.h */,
+				2CAA6E7887014836B138E4457616B235 /* Support Files */,
+			);
+			name = YYModel;
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		B113A6DA8D32CF6D11A5E28F43C7D2D4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E41F9E61EA1127A1AE96AA6991FD17A7 /* GoogleDirectionKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BA8D57B17B08A94F72190FC54AB2D197 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8ACEFF8B10B314BF769EB633AF5A858 /* Pods-GoogleDirectionKit_Example */,
+				D7ED49831AD8F25E39499F7BB5440750 /* Pods-GoogleDirectionKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C8ACEFF8B10B314BF769EB633AF5A858 /* Pods-GoogleDirectionKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				28F6DA26C1CFC4E9FCF788E4F0E86859 /* Pods-GoogleDirectionKit_Example.modulemap */,
+				44729B276DD3A60D7E769DFFD0592F35 /* Pods-GoogleDirectionKit_Example-acknowledgements.markdown */,
+				44B88CDCF2BF0468E962C4533CC5B9EC /* Pods-GoogleDirectionKit_Example-acknowledgements.plist */,
+				DD8BC93485A83AE9BEF36AC56EFD314E /* Pods-GoogleDirectionKit_Example-dummy.m */,
+				5A355C7767FA38714C4356932EC699FC /* Pods-GoogleDirectionKit_Example-frameworks.sh */,
+				EFCC5246255B69FF55C84D72D39D5C14 /* Pods-GoogleDirectionKit_Example-Info.plist */,
+				662E81E68543300EEDE1BA8E2AA9A970 /* Pods-GoogleDirectionKit_Example-umbrella.h */,
+				C481F78C6AE69EF2A73EE1E4BC25170A /* Pods-GoogleDirectionKit_Example.debug.xcconfig */,
+				F0E31AA9C2CCB5F9DA86903C0A78F9AE /* Pods-GoogleDirectionKit_Example.release.xcconfig */,
+			);
+			name = "Pods-GoogleDirectionKit_Example";
+			path = "Target Support Files/Pods-GoogleDirectionKit_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B113A6DA8D32CF6D11A5E28F43C7D2D4 /* Development Pods */,
+				D3589E12364566A83402A7AB0D63DB3C /* Frameworks */,
+				F8EF2200BE9FEC07CF94B1BF0280D61A /* Pods */,
+				9ECD82BFE060F293C4EA64190C06EA9F /* Products */,
+				BA8D57B17B08A94F72190FC54AB2D197 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D3589E12364566A83402A7AB0D63DB3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7906683B44529943B3D1C3FC08003499 /* YYModel.framework */,
+				0D96BB6CEA0EC061211A1981C560DC35 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7ED49831AD8F25E39499F7BB5440750 /* Pods-GoogleDirectionKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F7F2C1B039826330A3A9F7399EB9CC7F /* Pods-GoogleDirectionKit_Tests.modulemap */,
+				A5C6B74E3B806DD935EC088B13F3D26A /* Pods-GoogleDirectionKit_Tests-acknowledgements.markdown */,
+				6C1D965E1E710E150FAA4BABCC20B0AF /* Pods-GoogleDirectionKit_Tests-acknowledgements.plist */,
+				AB612557F06E1DF6A9A3B6862CAB49CD /* Pods-GoogleDirectionKit_Tests-dummy.m */,
+				ADFB6E1DE14CEFB0395B5028F9D9A992 /* Pods-GoogleDirectionKit_Tests-Info.plist */,
+				212C1D258613611E745CBB4DD080EAE7 /* Pods-GoogleDirectionKit_Tests-umbrella.h */,
+				743124D24082D89C982C6A2105790A40 /* Pods-GoogleDirectionKit_Tests.debug.xcconfig */,
+				88CB29B019C0675916F911B84DD92FFB /* Pods-GoogleDirectionKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-GoogleDirectionKit_Tests";
+			path = "Target Support Files/Pods-GoogleDirectionKit_Tests";
+			sourceTree = "<group>";
+		};
+		DAB4626F2A7E705E793412582F947782 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3A7EA7CAEE46FD71037B509D67CEF1B8 /* GoogleDirectionKit.podspec */,
+				09889FCED6C40E6584DD6E64F4A112D3 /* LICENSE */,
+				3877567A1A2C785E4052B321C968541E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DE7EBF1E79C80A81390F0BFC7CB0CEB8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0DFA0CC551A7FF09B7C14D0FB10FC80 /* GoogleDirectionKit.modulemap */,
+				906872037B90CBE815376DEA07B955AB /* GoogleDirectionKit-dummy.m */,
+				58BF6879D58B3744CD76778796EA071D /* GoogleDirectionKit-Info.plist */,
+				ADA16928DC327C28938B36C8B68C3537 /* GoogleDirectionKit-prefix.pch */,
+				D6E050CCD3DB5816B96B44DAA5863889 /* GoogleDirectionKit-umbrella.h */,
+				4E484BE6EE1D577D2D687AFD3CA72049 /* GoogleDirectionKit.debug.xcconfig */,
+				63284F7BB7643C26C4A0A921E5F12E6B /* GoogleDirectionKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GoogleDirectionKit";
+			sourceTree = "<group>";
+		};
+		E41F9E61EA1127A1AE96AA6991FD17A7 /* GoogleDirectionKit */ = {
+			isa = PBXGroup;
+			children = (
+				D7C4579F56CE004E58EC27CD5D86CE6D /* GoogleDirectionLibrary.h */,
+				0185F4FC8D0B07619119B971C23E5B75 /* GoogleDirectionManage.h */,
+				43B06872975324B7043EA1FADE7C24E1 /* GoogleDirectionManage.m */,
+				4FB3D365C96E80B0093ABD5ED902C39D /* GoogleDirectionRequestInfo.h */,
+				DBDBEC5F5D43411B4F9D03B2CBB0C43B /* GoogleDirectionRequestInfo.m */,
+				C4EE12219598BC152CE28D45C038D6F0 /* GoogleDirectionResponseParseInfo.h */,
+				2DDFCBB9389BF7060160457D28EFCF26 /* GoogleDirectionResponseParseInfo.m */,
+				EAEF84FC470EEA6C4A4B8C676F0B1B21 /* Config */,
+				785905F7F14433995D6F5D6E7F16D574 /* Constant */,
+				979B37FF94FA288E3CC15D608DDA9F31 /* Model */,
+				DAB4626F2A7E705E793412582F947782 /* Pod */,
+				DE7EBF1E79C80A81390F0BFC7CB0CEB8 /* Support Files */,
+			);
+			name = GoogleDirectionKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EAEF84FC470EEA6C4A4B8C676F0B1B21 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				562E8AA2C19AA83EE8386830C01F7FF6 /* GoogleDirectionConfiguration.h */,
+				1AA3C79EC66C85D4D5F6927F4BF19301 /* GoogleDirectionConfiguration.m */,
+			);
+			name = Config;
+			path = GoogleDirectionKit/Classes/Config;
+			sourceTree = "<group>";
+		};
+		F8EF2200BE9FEC07CF94B1BF0280D61A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4AEA6E70374E3B540504DB128F5AD5D /* YYModel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13E6AA3BF9BFBADB570A8F409D8795EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4FFF4A12F58A5DECF76021867F32D8 /* Pods-GoogleDirectionKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E9E5C2DAAC95CBA152CC482D03E4BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB651B513C073704FA017D34A1C8397B /* NSObject+YYModel.h in Headers */,
+				5D1008839531AF41C82453D3400D4624 /* YYClassInfo.h in Headers */,
+				636E16A12A6DE27DE33D0BC345852C88 /* YYModel-umbrella.h in Headers */,
+				FDBE711C0B775861F847A9D044548F45 /* YYModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92238034074F967176D8BA8DC37EE297 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36F02FF7DA601BA4839CF6379F4E5BF /* GoogleDirectionAgency.h in Headers */,
+				519A3521158D3E5A3E779804EBD0A987 /* GoogleDirectionBound.h in Headers */,
+				1A87F742EE3DF0B61B7F1AA1C691A80D /* GoogleDirectionConfiguration.h in Headers */,
+				B92656D26B4B80484FED7D3797C1714E /* GoogleDirectionConstant.h in Headers */,
+				04CEDC9856B0E2F850C7DB6CA7004E04 /* GoogleDirectionCoordination.h in Headers */,
+				681BAAFE274B54ECF62305961CBAE64D /* GoogleDirectionFare.h in Headers */,
+				63C4BBD5FE8922A5B7F140852F9DE721 /* GoogleDirectionInfo.h in Headers */,
+				134A518AC4D2462EA318F4F3732647A5 /* GoogleDirectionKit-umbrella.h in Headers */,
+				9B525EC7B3C6AB2DA644A7AA363140A4 /* GoogleDirectionLeg.h in Headers */,
+				6D43A955C90186AE9F85C4A61C67425D /* GoogleDirectionLibrary.h in Headers */,
+				FEF65FF0B99258A4E87A25EF5681E67B /* GoogleDirectionLine.h in Headers */,
+				AC42F2959593C785C995559B0CE47E27 /* GoogleDirectionManage.h in Headers */,
+				0BAB81DAD32203F8745F6459A992A267 /* GoogleDirectionRequestInfo.h in Headers */,
+				557CBB16032934D3ECC15DA710C87382 /* GoogleDirectionResponseParseInfo.h in Headers */,
+				CDCB1E599ED3F41986A61267E5753CAC /* GoogleDirectionRoute.h in Headers */,
+				6C443F47AB7AA834CEAA8677C5F1006D /* GoogleDirectionRoutePolyline.h in Headers */,
+				6165344B3571BB9169CAB7DEE96DE216 /* GoogleDirectionStep.h in Headers */,
+				C7D94026A1894286377CA7FAB64299F3 /* GoogleDirectionStopPoint.h in Headers */,
+				E02A8F3C49C43CFC2214BD418B1FAB40 /* GoogleDirectionTimeInfo.h in Headers */,
+				E76A0C2F02C559ED183595EED1DF2AD8 /* GoogleDirectionTransitDetail.h in Headers */,
+				6D572033D82B34589F6489CA8A89DCD3 /* GoogleDirectionVehicle.h in Headers */,
+				F50C76D4602624238F0AD2E7EAC4D7C8 /* GoogleDirectionWaypoint.h in Headers */,
+				72674CAF2C8C9A829106B94C8DF1632B /* GoogleGeocodedWaypoint.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ADEC5D53E326D786BB6D97C67BFF0E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646A19A2E7C805E775DBB361095B1EB1 /* Pods-GoogleDirectionKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3370671667738E1F5D4E411760E53D0A /* GoogleDirectionKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4FD99A0F66B132A1B2B32EC0BB156F /* Build configuration list for PBXNativeTarget "GoogleDirectionKit" */;
+			buildPhases = (
+				92238034074F967176D8BA8DC37EE297 /* Headers */,
+				A8F2342D29F507C4AC46B25CC955B3DC /* Sources */,
+				6521907A11087481B3077226990BEA3D /* Frameworks */,
+				750AF4DD7BC2B1D694F5E6349172FD7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84580974E8A6830983A4F721789449CB /* PBXTargetDependency */,
+			);
+			name = GoogleDirectionKit;
+			productName = GoogleDirectionKit;
+			productReference = 28790D1913DB2AEBC1D736E115B71030 /* GoogleDirectionKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84B44807A12996D487A4A591A481D6A0 /* YYModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A20E07D5E06BAED381405DBB290D020 /* Build configuration list for PBXNativeTarget "YYModel" */;
+			buildPhases = (
+				76E9E5C2DAAC95CBA152CC482D03E4BE /* Headers */,
+				5E05711B867A69109F10607FF216FD79 /* Sources */,
+				B80B7F6170D53D2597480A9B9548B6EE /* Frameworks */,
+				B9DCB511B9C8EF3FE04380825220B0C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYModel;
+			productName = YYModel;
+			productReference = E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8CEB7E36B784B7DBBA3252F473743373 /* Pods-GoogleDirectionKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E663F762FAF6280C81C48063CA4A92D /* Build configuration list for PBXNativeTarget "Pods-GoogleDirectionKit_Example" */;
+			buildPhases = (
+				9ADEC5D53E326D786BB6D97C67BFF0E0 /* Headers */,
+				12F4A138F4F0BD327D1ADE89E0C9A964 /* Sources */,
+				02AA71E30478FB2665DC9A2CAB236586 /* Frameworks */,
+				60496F78349EFD45AB243CD1B11EA8B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27878946160B8D704E6C56644E6BF362 /* PBXTargetDependency */,
+				FA1AE0CDF1598875654D014306197692 /* PBXTargetDependency */,
+			);
+			name = "Pods-GoogleDirectionKit_Example";
+			productName = "Pods-GoogleDirectionKit_Example";
+			productReference = 54E2C0E71CF586BF8460081B56D18A65 /* Pods_GoogleDirectionKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B61F1442081959F70A83049DDA3C1D7C /* Pods-GoogleDirectionKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432842919B1104525939EBD49483F811 /* Build configuration list for PBXNativeTarget "Pods-GoogleDirectionKit_Tests" */;
+			buildPhases = (
+				13E6AA3BF9BFBADB570A8F409D8795EF /* Headers */,
+				49EACC3B636FD5584EC4A6A1723B785C /* Sources */,
+				6C5C510E851EDCDDB2EF6848E4C3D1A1 /* Frameworks */,
+				DB68DC6151E7A33D1355B77270E58A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AAA439D4C6230883E9E84E9D1FB94BD /* PBXTargetDependency */,
+			);
+			name = "Pods-GoogleDirectionKit_Tests";
+			productName = "Pods-GoogleDirectionKit_Tests";
+			productReference = 78BAC66A20A276249975AA097162B831 /* Pods_GoogleDirectionKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9ECD82BFE060F293C4EA64190C06EA9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3370671667738E1F5D4E411760E53D0A /* GoogleDirectionKit */,
+				8CEB7E36B784B7DBBA3252F473743373 /* Pods-GoogleDirectionKit_Example */,
+				B61F1442081959F70A83049DDA3C1D7C /* Pods-GoogleDirectionKit_Tests */,
+				84B44807A12996D487A4A591A481D6A0 /* YYModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60496F78349EFD45AB243CD1B11EA8B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750AF4DD7BC2B1D694F5E6349172FD7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9DCB511B9C8EF3FE04380825220B0C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB68DC6151E7A33D1355B77270E58A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12F4A138F4F0BD327D1ADE89E0C9A964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4096C7A246CE9DABFA1C26930470C111 /* Pods-GoogleDirectionKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49EACC3B636FD5584EC4A6A1723B785C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84313B09B7614F9A5B7DED025823A26C /* Pods-GoogleDirectionKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E05711B867A69109F10607FF216FD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123205333FCFE18605A9DFD72DF9E2B6 /* NSObject+YYModel.m in Sources */,
+				2BC49613C26D4E75DE0ECDE1023BE4CD /* YYClassInfo.m in Sources */,
+				07A9C759A4459C023062632973FBFDDD /* YYModel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F2342D29F507C4AC46B25CC955B3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ED2FE497FCADE844526E00567D831B /* GoogleDirectionAgency.m in Sources */,
+				E29DF1FED26CDA2131493038DA93B694 /* GoogleDirectionBound.m in Sources */,
+				05C3A98A422B670AEA202B733B6A1FAB /* GoogleDirectionConfiguration.m in Sources */,
+				98BC85B3ABE5D282A5D76E2DF3A83E54 /* GoogleDirectionCoordination.m in Sources */,
+				C5D4970A692242FFF2FC72EC1ADD6F94 /* GoogleDirectionFare.m in Sources */,
+				61702AD8ECBFFD9630352E47E795B045 /* GoogleDirectionInfo.m in Sources */,
+				2488835A57EA2BA361F33F72996D1811 /* GoogleDirectionKit-dummy.m in Sources */,
+				7C83CF548D60BF8B9A4238B58AD2554F /* GoogleDirectionLeg.m in Sources */,
+				284EAF74668599ACE3119D5D3597644F /* GoogleDirectionLine.m in Sources */,
+				88A910EFE5AD091A66FC7D26233A4C43 /* GoogleDirectionManage.m in Sources */,
+				844B9C1AFC3B70F8A27C8225C6508D35 /* GoogleDirectionRequestInfo.m in Sources */,
+				5E3CA726B4E56DBB7D374244D150FD99 /* GoogleDirectionResponseParseInfo.m in Sources */,
+				2CDC62E03F6E64CB487AC8CAA13ED02C /* GoogleDirectionRoute.m in Sources */,
+				1B677A74E5FDBADF79EC43C8E6A87187 /* GoogleDirectionRoutePolyline.m in Sources */,
+				969A86A4F60B2B5174450AB46D282F0A /* GoogleDirectionStep.m in Sources */,
+				170AC4CDE078C4EF79BBE67C783AAFFD /* GoogleDirectionStopPoint.m in Sources */,
+				A1B51E991C360EA6E175EEE6CC176E96 /* GoogleDirectionTimeInfo.m in Sources */,
+				A25A48619FA0FA3EC925E86690F540BD /* GoogleDirectionTransitDetail.m in Sources */,
+				1F36E90F5D4B91F1ED2ADD35BAE048BD /* GoogleDirectionVehicle.m in Sources */,
+				CED9B62D98D657AA9B4649A0C71B034F /* GoogleDirectionWaypoint.m in Sources */,
+				B2E03C9BCA9C6E33049BBF363FAA68E1 /* GoogleGeocodedWaypoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27878946160B8D704E6C56644E6BF362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleDirectionKit;
+			target = 3370671667738E1F5D4E411760E53D0A /* GoogleDirectionKit */;
+			targetProxy = 938A4C2F6F3A1E0D2B7291ED5E2E7C18 /* PBXContainerItemProxy */;
+		};
+		6AAA439D4C6230883E9E84E9D1FB94BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GoogleDirectionKit_Example";
+			target = 8CEB7E36B784B7DBBA3252F473743373 /* Pods-GoogleDirectionKit_Example */;
+			targetProxy = FBB96B21A177A42CF188D8FBFF5FB2B0 /* PBXContainerItemProxy */;
+		};
+		84580974E8A6830983A4F721789449CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
+			targetProxy = DE7EAFE450607DE925113D32860DEA65 /* PBXContainerItemProxy */;
+		};
+		FA1AE0CDF1598875654D014306197692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
+			targetProxy = 18AA3CF17980C57AFD0ACCCC9C6F7E9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04A9BAC6F4C23360A24EEC275FE767A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE96AEFC79A5BBB37B813EF66CBABE80 /* YYModel.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYModel/YYModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYModel/YYModel.modulemap";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		158E85285EC590DA82C6102157E7FA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 743124D24082D89C982C6A2105790A40 /* Pods-GoogleDirectionKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleDirectionKit_Tests/Pods-GoogleDirectionKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleDirectionKit_Tests/Pods-GoogleDirectionKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		80FD473FAFF5C212402C864D50761D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E31AA9C2CCB5F9DA86903C0A78F9AE /* Pods-GoogleDirectionKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleDirectionKit_Example/Pods-GoogleDirectionKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleDirectionKit_Example/Pods-GoogleDirectionKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8815E07265C819CAEF1B64249480D2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C481F78C6AE69EF2A73EE1E4BC25170A /* Pods-GoogleDirectionKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleDirectionKit_Example/Pods-GoogleDirectionKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleDirectionKit_Example/Pods-GoogleDirectionKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95CE6BE73126C0FB6367F1CC3278A94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E484BE6EE1D577D2D687AFD3CA72049 /* GoogleDirectionKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleDirectionKit/GoogleDirectionKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleDirectionKit/GoogleDirectionKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleDirectionKit/GoogleDirectionKit.modulemap";
+				PRODUCT_MODULE_NAME = GoogleDirectionKit;
+				PRODUCT_NAME = GoogleDirectionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA38A55B770D4E89BEB2504EF2D616FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63284F7BB7643C26C4A0A921E5F12E6B /* GoogleDirectionKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleDirectionKit/GoogleDirectionKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleDirectionKit/GoogleDirectionKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleDirectionKit/GoogleDirectionKit.modulemap";
+				PRODUCT_MODULE_NAME = GoogleDirectionKit;
+				PRODUCT_NAME = GoogleDirectionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE29EA61057E767095CE3F140DC29E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CB29B019C0675916F911B84DD92FFB /* Pods-GoogleDirectionKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleDirectionKit_Tests/Pods-GoogleDirectionKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleDirectionKit_Tests/Pods-GoogleDirectionKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E940ADF14AA51CD0E4B10911D49D360F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E19EEE2B95F52035DA08F0A7E564714 /* YYModel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYModel/YYModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYModel/YYModel.modulemap";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C4FD99A0F66B132A1B2B32EC0BB156F /* Build configuration list for PBXNativeTarget "GoogleDirectionKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CE6BE73126C0FB6367F1CC3278A94E /* Debug */,
+				BA38A55B770D4E89BEB2504EF2D616FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		432842919B1104525939EBD49483F811 /* Build configuration list for PBXNativeTarget "Pods-GoogleDirectionKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158E85285EC590DA82C6102157E7FA1F /* Debug */,
+				BE29EA61057E767095CE3F140DC29E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E663F762FAF6280C81C48063CA4A92D /* Build configuration list for PBXNativeTarget "Pods-GoogleDirectionKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8815E07265C819CAEF1B64249480D2D6 /* Debug */,
+				80FD473FAFF5C212402C864D50761D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A20E07D5E06BAED381405DBB290D020 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E940ADF14AA51CD0E4B10911D49D360F /* Debug */,
+				04A9BAC6F4C23360A24EEC275FE767A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
