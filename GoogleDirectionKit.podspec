@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GoogleDirectionKit' # 组件名称
   s.version          = '0.1.1' # 版本号
-  s.summary          = 'A short description of GoogleDirectionKit.' # 简单描述
+  s.summary          = '[iOS]Library for Google Direction API for Google Maps Android API v2' # 简单描述
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
 # 详细描述
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  [iOS]Library for Google Direction API for Google Maps Android API v2
                        DESC
 
   s.homepage         = 'https://github.com/keroushe/GoogleDirectionKit'
