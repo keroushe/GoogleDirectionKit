@@ -1,22 +1,22 @@
 PODS:
-  - GoogleDirectionKit (0.1.1):
-    - YYModel (~> 1.0.4)
-  - YYModel (1.0.4)
+  - GoogleDirectionKit (0.1.2):
+    - MJExtension
+  - MJExtension (3.2.4)
 
 DEPENDENCIES:
   - GoogleDirectionKit (from `../`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - YYModel
+    - MJExtension
 
 EXTERNAL SOURCES:
   GoogleDirectionKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GoogleDirectionKit: 0df848c45c033bfd44ec6262c1dec88d53b8345a
-  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  GoogleDirectionKit: d8dfe827c393df1f46544bf35d559cd88fad552c
+  MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
 
 PODFILE CHECKSUM: 5376eccc82424461bed71fcd616365d5cb3de52a
 

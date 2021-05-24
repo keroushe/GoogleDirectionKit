@@ -1,8 +1,8 @@
 {
   "name": "GoogleDirectionKit",
-  "version": "0.1.1",
-  "summary": "A short description of GoogleDirectionKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.2",
+  "summary": "[iOS]Library for Google Direction API for Google Maps Android API v2",
+  "description": "[iOS]Library for Google Direction API for Google Maps Android API v2",
   "homepage": "https://github.com/keroushe/GoogleDirectionKit",
   "license": {
     "type": "MIT",
@@ -13,15 +13,15 @@
   },
   "source": {
     "git": "https://github.com/keroushe/GoogleDirectionKit.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "10.0"
   },
   "source_files": "GoogleDirectionKit/Classes/**/*",
   "dependencies": {
-    "YYModel": [
-      "~> 1.0.4"
+    "MJExtension": [
+
     ]
   },
   "requires_arc": true

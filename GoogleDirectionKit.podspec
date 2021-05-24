@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GoogleDirectionKit' # 组件名称
-  s.version          = '0.1.1' # 版本号
+  s.version          = '0.1.2' # 版本号
   s.summary          = '[iOS]Library for Google Direction API for Google Maps Android API v2' # 简单描述
 
 # This description is used to generate tags and improve search results.
@@ -40,6 +40,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'YYModel', '~> 1.0.4'
+  s.dependency 'MJExtension'
   s.requires_arc = true
 end

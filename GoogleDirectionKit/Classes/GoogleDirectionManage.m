@@ -8,7 +8,7 @@
 #import "GoogleDirectionManage.h"
 #import "GoogleDirectionConstant.h"
 // 数据解析
-#import <YYModel/YYModel.h>
+#import <MJExtension/MJExtension.h>
 
 @implementation GoogleDirectionManage
 
@@ -34,7 +34,8 @@
         else
         {
             NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
-            GoogleDirectionResponseParseInfo *directionInfo = [GoogleDirectionResponseParseInfo yy_modelWithDictionary:dict];
+            GoogleDirectionResponseParseInfo *directionInfo = [GoogleDirectionResponseParseInfo mj_objectWithKeyValues:dict];
+//            GoogleDirectionResponseParseInfo *directionInfo = [GoogleDirectionResponseParseInfo yy_modelWithDictionary:dict];
             if (completion) completion(YES, directionInfo);
         }
     }];
