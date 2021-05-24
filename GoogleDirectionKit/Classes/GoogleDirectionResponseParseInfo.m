@@ -14,4 +14,9 @@
     return @{@"geocoded_waypoints" : [GoogleGeocodedWaypoint class], @"routes" : [GoogleDirectionRoute class]};
 }
 
++ (NSDictionary *)mj_objectClassInArray
+{
+    return @{@"geocoded_waypoints" : [GoogleGeocodedWaypoint class], @"routes" : [GoogleDirectionRoute class]};
+}
+
 @end

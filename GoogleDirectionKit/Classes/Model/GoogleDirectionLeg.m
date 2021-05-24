@@ -14,4 +14,9 @@
     return @{@"steps" : [GoogleDirectionStep class], @"via_waypoint": [GoogleDirectionWaypoint class]};
 }
 
++ (NSDictionary *)mj_objectClassInArray
+{
+    return @{@"steps" : [GoogleDirectionStep class], @"via_waypoint": [GoogleDirectionWaypoint class]};
+}
+
 @end

@@ -14,4 +14,9 @@
     return @{@"agencies" : [GoogleDirectionAgency class]};
 }
 
++ (NSDictionary *)mj_objectClassInArray
+{
+    return @{@"agencies" : [GoogleDirectionAgency class]};
+}
+
 @end

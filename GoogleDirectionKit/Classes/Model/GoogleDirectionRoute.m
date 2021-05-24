@@ -14,4 +14,9 @@
     return @{@"legs" : [GoogleDirectionLeg class]};
 }
 
++ (NSDictionary *)mj_objectClassInArray
+{
+    return @{@"legs" : [GoogleDirectionLeg class]};
+}
+
 @end
